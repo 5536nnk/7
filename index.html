@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>曾辉家具厂</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        /* 新增超大粑粑样式 */
+        .super-poop {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 8rem;
+            animation: rotatePoop 4s infinite linear;
+            filter: drop-shadow(2px 2px 0 white);
+            z-index: 999;
+        }
+
+        @keyframes rotatePoop {
+            0% { transform: rotate(0deg) scale(1); }
+            25% { transform: rotate(15deg) scale(1.2); }
+            50% { transform: rotate(0deg) scale(1); }
+            75% { transform: rotate(-15deg) scale(0.8); }
+            100% { transform: rotate(0deg) scale(1); }
+        }
+
+        /* 原有样式保持不变 */
+        body {
+            background: linear-gradient(45deg, #FFB6C1, #FFD700, #87CEFA);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            font-family: 'Comic Neue', cursive;
+            position: relative; /* 新增定位 */
+        }
+
+        /* 其他原有样式保持不变... */
+    </style>
+</head>
+<body>
+    <!-- 新增超大粑粑 -->
+    <div class="super-poop">💩</div>
+    
+    <div class="container">
+        <div class="emoji">🛋️✨🎨</div>
+        <h1 class="title">曾辉家具厂</h1>
+        <div class="emoji">
+            <span class="poop-emoji">💩</span>
+            <span>🚚💨</span>
+            <span class="poop-emoji">💩</span>
+        </div>
+        <h2 class="subtitle">超萌家具 送货神速！</h2>
+        <h2 class="subtitle">💖 从工厂直送你的小心窝 💖</h2>
+        <button class="cta-button">立即定制我的萌家具 🛏️</button>
+    </div>
+</body>
+</html>
